@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
 @property (strong, nonatomic) NSArray *kenImageArray;
+@property (strong, nonatomic) NSIndexPath *selectedIndexPath;
 
 @end
 
@@ -52,7 +53,7 @@
     
     cell.contentView.backgroundColor = [UIColor redColor];
     
-    NSLog(@"highlight");
+    NSLog(@"Highlith:(%ld,%ld)", (long)indexPath.section,(long)indexPath.row);
     
 }
 
@@ -63,7 +64,7 @@
     
     cell.contentView.backgroundColor = [UIColor yellowColor];
     
-    NSLog(@"unhighlight");
+    NSLog(@"Un-Highlight:(%ld,%ld)", (long)indexPath.section,(long)indexPath.row);
 }
 
 
@@ -83,15 +84,17 @@
     
     cell.kenImageLabel.backgroundColor = [UIColor blueColor];
     
-    NSLog(@"Selected");
+    self.selectedIndexPath = indexPath;
+    
+    NSLog(@"Selected:(%ld,%ld)", (long)indexPath.section,(long)indexPath.row);
 }
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     KenCollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
     
-    cell.kenImageLabel.backgroundColor = [UIColor orangeColor];
+    cell.kenImageLabel.backgroundColor = nil;
     
-    NSLog(@"DE-Selected");
+    NSLog(@"DE-Selected:(%ld,%ld)", (long)indexPath.section,(long)indexPath.row);
 }
 
 
@@ -110,15 +113,45 @@
 
 - (KenCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    //選用自定義cell
     KenCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"kenImageCell" forIndexPath:indexPath];
-    
+    //匯入照片
     NSString *imageViewString = [self.kenImageArray objectAtIndex:indexPath.row];
-    
     cell.kenImageView.image = [UIImage imageNamed:imageViewString];
-    
+    //編寫label名稱
     cell.kenImageLabel.text = imageViewString;
-    
+    //設定背景
     cell.contentView.backgroundColor = [UIColor yellowColor];
+    
+    
+    //用程式定義cell
+    UILabel *topLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, cell.frame.size.width, 30)];
+    
+    //刪除重複的label，避免重複出現
+    for (UILabel *label in cell.subviews)
+    {
+        if([label isMemberOfClass:[UILabel class]]) {
+            [label removeFromSuperview];
+        }
+        
+    }
+    
+    topLabel.text = [NSString stringWithFormat:@"(%ld,%ld )",(long)indexPath.section,(long)indexPath.row];
+    topLabel.textAlignment = UITextAlignmentCenter;
+    
+    [cell addSubview:topLabel];
+    
+    
+    //custom cell內的label
+    if (self.selectedIndexPath == indexPath)
+    {
+        cell.kenImageLabel.backgroundColor = [UIColor blueColor];
+    }else
+    {
+        cell.kenImageLabel.backgroundColor = nil;
+    }
+    
     
     return cell;
     
