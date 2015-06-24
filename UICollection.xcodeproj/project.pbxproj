@@ -13,7 +13,6 @@
 		ECB08BBC1B38FB52009E7951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BBB1B38FB52009E7951 /* Images.xcassets */; };
 		ECB08BBF1B38FB52009E7951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BBD1B38FB52009E7951 /* LaunchScreen.xib */; };
 		ECB08BCB1B38FB52009E7951 /* UICollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BCA1B38FB52009E7951 /* UICollectionTests.m */; };
-		ECB08BE11B395246009E7951 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BE01B395246009E7951 /* CollectionViewController.m */; };
 		ECB08BF31B3A4E79009E7951 /* ken1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BED1B3A4E79009E7951 /* ken1.png */; };
 		ECB08BF41B3A4E79009E7951 /* ken2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BEE1B3A4E79009E7951 /* ken2.png */; };
 		ECB08BF51B3A4E79009E7951 /* ken3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BEF1B3A4E79009E7951 /* ken3.png */; };
@@ -46,8 +45,6 @@
 		ECB08BC41B38FB52009E7951 /* UICollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB08BC91B38FB52009E7951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB08BCA1B38FB52009E7951 /* UICollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionTests.m; sourceTree = "<group>"; };
-		ECB08BDF1B395246009E7951 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
-		ECB08BE01B395246009E7951 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		ECB08BED1B3A4E79009E7951 /* ken1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken1.png; sourceTree = "<group>"; };
 		ECB08BEE1B3A4E79009E7951 /* ken2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken2.png; sourceTree = "<group>"; };
 		ECB08BEF1B3A4E79009E7951 /* ken3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken3.png; sourceTree = "<group>"; };
@@ -102,8 +99,6 @@
 				ECB08BB21B38FB52009E7951 /* AppDelegate.h */,
 				ECB08BB31B38FB52009E7951 /* AppDelegate.m */,
 				ECB08BB81B38FB52009E7951 /* Main.storyboard */,
-				ECB08BDF1B395246009E7951 /* CollectionViewController.h */,
-				ECB08BE01B395246009E7951 /* CollectionViewController.m */,
 				ECB08BFF1B3A56A4009E7951 /* kenImageView */,
 				ECB08BBB1B38FB52009E7951 /* Images.xcassets */,
 				ECB08BBD1B38FB52009E7951 /* LaunchScreen.xib */,
@@ -269,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB08BE11B395246009E7951 /* CollectionViewController.m in Sources */,
 				ECB08BFE1B3A53C1009E7951 /* KenCollectionViewCell.m in Sources */,
 				ECB08BB41B38FB52009E7951 /* AppDelegate.m in Sources */,
 				ECB08BB11B38FB52009E7951 /* main.m in Sources */,
