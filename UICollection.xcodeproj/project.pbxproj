@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		ECB08BB11B38FB52009E7951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BB01B38FB52009E7951 /* main.m */; };
 		ECB08BB41B38FB52009E7951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BB31B38FB52009E7951 /* AppDelegate.m */; };
-		ECB08BB71B38FB52009E7951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BB61B38FB52009E7951 /* ViewController.m */; };
 		ECB08BBA1B38FB52009E7951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BB81B38FB52009E7951 /* Main.storyboard */; };
 		ECB08BBC1B38FB52009E7951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BBB1B38FB52009E7951 /* Images.xcassets */; };
 		ECB08BBF1B38FB52009E7951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BBD1B38FB52009E7951 /* LaunchScreen.xib */; };
 		ECB08BCB1B38FB52009E7951 /* UICollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BCA1B38FB52009E7951 /* UICollectionTests.m */; };
+		ECB08BE11B395246009E7951 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BE01B395246009E7951 /* CollectionViewController.m */; };
+		ECB08BF31B3A4E79009E7951 /* ken1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BED1B3A4E79009E7951 /* ken1.png */; };
+		ECB08BF41B3A4E79009E7951 /* ken2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BEE1B3A4E79009E7951 /* ken2.png */; };
+		ECB08BF51B3A4E79009E7951 /* ken3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BEF1B3A4E79009E7951 /* ken3.png */; };
+		ECB08BF61B3A4E79009E7951 /* ken4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BF01B3A4E79009E7951 /* ken4.png */; };
+		ECB08BF71B3A4E79009E7951 /* ken5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BF11B3A4E79009E7951 /* ken5.png */; };
+		ECB08BF81B3A4E79009E7951 /* ken6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB08BF21B3A4E79009E7951 /* ken6.png */; };
+		ECB08BFB1B3A4EDA009E7951 /* KenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BFA1B3A4EDA009E7951 /* KenViewController.m */; };
+		ECB08BFE1B3A53C1009E7951 /* KenCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB08BFD1B3A53C1009E7951 /* KenCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,24 @@
 		ECB08BB01B38FB52009E7951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECB08BB21B38FB52009E7951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECB08BB31B38FB52009E7951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECB08BB51B38FB52009E7951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECB08BB61B38FB52009E7951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECB08BB91B38FB52009E7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB08BBB1B38FB52009E7951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECB08BBE1B38FB52009E7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ECB08BC41B38FB52009E7951 /* UICollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB08BC91B38FB52009E7951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB08BCA1B38FB52009E7951 /* UICollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionTests.m; sourceTree = "<group>"; };
+		ECB08BDF1B395246009E7951 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		ECB08BE01B395246009E7951 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		ECB08BED1B3A4E79009E7951 /* ken1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken1.png; sourceTree = "<group>"; };
+		ECB08BEE1B3A4E79009E7951 /* ken2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken2.png; sourceTree = "<group>"; };
+		ECB08BEF1B3A4E79009E7951 /* ken3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken3.png; sourceTree = "<group>"; };
+		ECB08BF01B3A4E79009E7951 /* ken4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken4.png; sourceTree = "<group>"; };
+		ECB08BF11B3A4E79009E7951 /* ken5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken5.png; sourceTree = "<group>"; };
+		ECB08BF21B3A4E79009E7951 /* ken6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken6.png; sourceTree = "<group>"; };
+		ECB08BF91B3A4EDA009E7951 /* KenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenViewController.h; sourceTree = "<group>"; };
+		ECB08BFA1B3A4EDA009E7951 /* KenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenViewController.m; sourceTree = "<group>"; };
+		ECB08BFC1B3A53C1009E7951 /* KenCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenCollectionViewCell.h; sourceTree = "<group>"; };
+		ECB08BFD1B3A53C1009E7951 /* KenCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +101,10 @@
 			children = (
 				ECB08BB21B38FB52009E7951 /* AppDelegate.h */,
 				ECB08BB31B38FB52009E7951 /* AppDelegate.m */,
-				ECB08BB51B38FB52009E7951 /* ViewController.h */,
-				ECB08BB61B38FB52009E7951 /* ViewController.m */,
 				ECB08BB81B38FB52009E7951 /* Main.storyboard */,
+				ECB08BDF1B395246009E7951 /* CollectionViewController.h */,
+				ECB08BE01B395246009E7951 /* CollectionViewController.m */,
+				ECB08BFF1B3A56A4009E7951 /* kenImageView */,
 				ECB08BBB1B38FB52009E7951 /* Images.xcassets */,
 				ECB08BBD1B38FB52009E7951 /* LaunchScreen.xib */,
 				ECB08BAE1B38FB52009E7951 /* Supporting Files */,
@@ -117,6 +136,31 @@
 				ECB08BC91B38FB52009E7951 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB08BEC1B3A4E20009E7951 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECB08BED1B3A4E79009E7951 /* ken1.png */,
+				ECB08BEE1B3A4E79009E7951 /* ken2.png */,
+				ECB08BEF1B3A4E79009E7951 /* ken3.png */,
+				ECB08BF01B3A4E79009E7951 /* ken4.png */,
+				ECB08BF11B3A4E79009E7951 /* ken5.png */,
+				ECB08BF21B3A4E79009E7951 /* ken6.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ECB08BFF1B3A56A4009E7951 /* kenImageView */ = {
+			isa = PBXGroup;
+			children = (
+				ECB08BEC1B3A4E20009E7951 /* Images */,
+				ECB08BF91B3A4EDA009E7951 /* KenViewController.h */,
+				ECB08BFA1B3A4EDA009E7951 /* KenViewController.m */,
+				ECB08BFC1B3A53C1009E7951 /* KenCollectionViewCell.h */,
+				ECB08BFD1B3A53C1009E7951 /* KenCollectionViewCell.m */,
+			);
+			name = kenImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +243,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB08BF51B3A4E79009E7951 /* ken3.png in Resources */,
+				ECB08BF81B3A4E79009E7951 /* ken6.png in Resources */,
 				ECB08BBA1B38FB52009E7951 /* Main.storyboard in Resources */,
+				ECB08BF71B3A4E79009E7951 /* ken5.png in Resources */,
+				ECB08BF31B3A4E79009E7951 /* ken1.png in Resources */,
 				ECB08BBF1B38FB52009E7951 /* LaunchScreen.xib in Resources */,
+				ECB08BF61B3A4E79009E7951 /* ken4.png in Resources */,
 				ECB08BBC1B38FB52009E7951 /* Images.xcassets in Resources */,
+				ECB08BF41B3A4E79009E7951 /* ken2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB08BB71B38FB52009E7951 /* ViewController.m in Sources */,
+				ECB08BE11B395246009E7951 /* CollectionViewController.m in Sources */,
+				ECB08BFE1B3A53C1009E7951 /* KenCollectionViewCell.m in Sources */,
 				ECB08BB41B38FB52009E7951 /* AppDelegate.m in Sources */,
 				ECB08BB11B38FB52009E7951 /* main.m in Sources */,
+				ECB08BFB1B3A4EDA009E7951 /* KenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +468,7 @@
 				ECB08BD01B38FB52009E7951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB08BD11B38FB52009E7951 /* Build configuration list for PBXNativeTarget "UICollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +477,7 @@
 				ECB08BD31B38FB52009E7951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
